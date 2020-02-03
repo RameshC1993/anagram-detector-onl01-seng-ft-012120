@@ -5,7 +5,7 @@ class Anagram
     @word = word
   end
   
-  def self.match(words)
+  def match(words)
     arr = []
     
     words.each do |word|
