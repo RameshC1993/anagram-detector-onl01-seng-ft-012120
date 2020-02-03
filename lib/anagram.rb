@@ -9,7 +9,9 @@ class Anagram
     arr = []
     
     words.each do |word|
-      
+      if @word.length == word.length 
+        
+      end
     end
   end
 end
